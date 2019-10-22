@@ -13,3 +13,9 @@ pitch_roll.ino
 $ python pitch_roll.py
 </pre>
 --------------------------
+light sensor:tcs34725
+tcs34725--arduino-PC
+<pre>
+tcs34725.ino
+</pre>
+--------------------------
