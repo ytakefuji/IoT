@@ -48,5 +48,5 @@ server+adxl345
 <pre>
 |__ADXL345.h
 |__ADXL345.cpp
-|__servo.h
+|__Servo.h
 ---------------------------
