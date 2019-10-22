@@ -8,8 +8,8 @@ $ python mic.py
 adxl345--arduino-USB-PC
 <pre>
 pitch_roll.ino
-|_adxl345.cpp
-|_adxl345.h
+|__ADXL345.cpp
+|__ADXL345.h
 $ python pitch_roll.py
 </pre>
 --------------------------
