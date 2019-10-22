@@ -27,3 +27,12 @@ OLED128x64_mhz16.ino
 |__U8glib.h
 </pre>
 --------------------------
+earthquake(adxl345)+weather(bme280:air,temp,humid)
+<pre>
+OLED_adxl345_bme280.ino
+|__ADXL345.cpp
+|__ADXL345.h
+|__BME280I2C.cpp
+|__BME280I2C.h
+</pre>
+--------------------------
