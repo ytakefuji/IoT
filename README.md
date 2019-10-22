@@ -19,10 +19,11 @@ tcs34725--arduino-PC
 tcs34725.ino
 </pre>
 --------------------------
-co2 sensor
+co2 sensor: MH-Z16
 <pre>
-OLED128x64.ino
+OLED128x64_mhz16.ino
 |__NDIR_SoftwareSerial.h
 |__NDIR_SoftwareSerial.cpp
 |__U8glib.h
 </pre>
+--------------------------
