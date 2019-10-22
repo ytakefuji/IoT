@@ -44,3 +44,9 @@ PONG.ino
 |__ADXL345.h
 |__ADXL345.cpp
 ---------------------------
+server+adxl345
+<pre>
+|__ADXL345.h
+|__ADXL345.cpp
+|__servo.h
+---------------------------
