@@ -13,8 +13,16 @@ pitch_roll.ino
 $ python pitch_roll.py
 </pre>
 --------------------------
-light sensor: tcs34725--arduino-PC
+light sensor 
 <pre>
+tcs34725--arduino-PC
 tcs34725.ino
 </pre>
 --------------------------
+co2 sensor
+<pre>
+OLED128x64.ino
+|__NDIR_SoftwareSerial.h
+|__NDIR_SoftwareSerial.cpp
+|__U8glib.h
+</pre>
