@@ -43,10 +43,12 @@ PONG.ino
 |__Adafruit_SSD1306.h
 |__ADXL345.h
 |__ADXL345.cpp
+</pre>
 ---------------------------
 server+adxl345
 <pre>
 |__ADXL345.h
 |__ADXL345.cpp
 |__Servo.h
+</pre>
 ---------------------------
