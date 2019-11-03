@@ -1,4 +1,6 @@
 # IoT
+All python codes were tested on Windows 10 when Arduino Nano was used.
+
 microphone--arduino--USB-PC
 <pre>
 mic.ino
