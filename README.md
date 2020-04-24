@@ -66,5 +66,22 @@ Create blink.ino on Arduino where LED blinks the number of unread messages.
 HINT: use "serial" for communications between PC and Arduino.
 HINT: /dev/ttyS3 in Bash ubuntu on Windows, COM3 in Windows
 HINT: the number of blinks can be built by using "for loop" in Arduino.
+HINT: use cron for regularily executing command
+# run crontab:
+$ crontab -e
+# set SHELL, PATH, commands(minute, hour, day, month, day of the week, command)
+SHELL=/bin/bash
+PATH=/home/takefuji/miniconda3/bin:/home/takefuji/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+# every minute gcheck.py will be executed.
+* * * * * python gcheck.py >/dev/null
+# ┌───────────── minute (0 - 59)
+# │ ┌───────────── hour (0 - 23)
+# │ │ ┌───────────── day of the month (1 - 31)
+# │ │ │ ┌───────────── month (1 - 12)
+# │ │ │ │ ┌───────────── day of the week (0 - 6) (Sunday to Saturday;
+# │ │ │ │ │                                   7 is also Sunday on some systems)
+# │ │ │ │ │
+# │ │ │ │ │
+# * * * * * command to execute
 </pre>
 ---------------------------
