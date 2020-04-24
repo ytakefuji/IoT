@@ -58,12 +58,12 @@ servo_adxl345.ino
 </pre>
 ---------------------------
 ---------------------------
-Assignment: gmail unread messages
+Assignment: gmail unread messages; LED blinks the number of unread messages
 <pre>
-gmailcheck.py is to indicate the number of unread messages in gmail.
-Create gcheck.py by modifing gmailcheck.py to blink LEDs depending on given number for PC.
-Create blink.ino where LED blinks received int number of times for Arduino.
-HINT: use serial for communications with NANO
-HINT: Received int number should be blinked by using for loop in NANO.
+gmailcheck.py on PC is to indicate the number of unread messages in gmail.
+Create gcheck.py by modifing gmailcheck.py to blink LEDs depending on given number.
+Create blink.ino on Arduino where LED blinks the number of unread messages.
+HINT: use "serial" for communications between PC and Arduino.
+HINT: the number of blinks can be built by using "for loop" in Arduino.
 </pre>
 ---------------------------
