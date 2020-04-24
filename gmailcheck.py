@@ -1,3 +1,16 @@
+'''
+0.access the site:
+https://developers.google.com/gmail/api/quickstart/python
+1.Enable the Gmail API in the site
+credentials.json will be created.
+2.run the following command:
+$ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+3.download gmailcheck.py:
+https://github.com/ytakefuji/IoT/blob/master/gmailcheck.py
+4.run gmailcheck.py
+$ python gmailcheck.py
+it should show the number of unread massages.
+'''
 from googleapiclient.discovery import build
 from httplib2 import Http
 from oauth2client import file, client, tools
