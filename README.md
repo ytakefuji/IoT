@@ -57,3 +57,11 @@ servo_adxl345.ino
 |__Servo.h
 </pre>
 ---------------------------
+---------------------------
+gmail unread messages
+Assignment:
+<pre>
+gmailcheck.py is to indicate the number of unread messages in gmail.
+Modify gmailcheck.py to light up LEDs depending on given number.
+</pre>
+---------------------------
