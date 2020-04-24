@@ -68,6 +68,8 @@ HINT: /dev/ttyS3 in Bash ubuntu on Windows, COM3 in Windows
 HINT: the number of blinks can be built by using "for loop" in Arduino.
 HINT: use cron for regularily executing command
 # run crontab:
+$ sudo service cron start
+# depict cron content by crontab -e (edit)
 $ crontab -e
 # set SHELL, PATH, commands(minute, hour, day, month, day of the week, command)
 SHELL=/bin/bash
