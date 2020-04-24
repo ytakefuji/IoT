@@ -58,10 +58,12 @@ servo_adxl345.ino
 </pre>
 ---------------------------
 ---------------------------
-gmail unread messages
-Assignment:
+Assignment: gmail unread messages
 <pre>
 gmailcheck.py is to indicate the number of unread messages in gmail.
-Modify gmailcheck.py to light up LEDs depending on given number.
+Modify gmailcheck.py to blink LEDs depending on given number.
+Arduino NANO can be used.
+HINT: use pylibftdi for communications with NANO
+HINT: 
 </pre>
 ---------------------------
