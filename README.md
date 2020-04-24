@@ -64,6 +64,7 @@ gmailcheck.py on PC is to indicate the number of unread messages in gmail.
 Create gcheck.py by modifing gmailcheck.py to blink LEDs depending on given number.
 Create blink.ino on Arduino where LED blinks the number of unread messages.
 HINT: use "serial" for communications between PC and Arduino.
+HINT: /dev/ttyS3 in Bash ubuntu on Windows, COM3 in Windows
 HINT: the number of blinks can be built by using "for loop" in Arduino.
 </pre>
 ---------------------------
