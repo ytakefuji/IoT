@@ -63,7 +63,7 @@ Assignment: gmail unread messages
 gmailcheck.py is to indicate the number of unread messages in gmail.
 Modify gmailcheck.py to blink LEDs depending on given number.
 Arduino NANO can be used.
-HINT: use pylibftdi for communications with NANO
-HINT: 
+HINT: use serial for communications with NANO
+HINT: Received int number should be blinked by using for loop in NANO.
 </pre>
 ---------------------------
