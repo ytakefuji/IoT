@@ -17,7 +17,7 @@ from oauth2client import file, client, tools
 
 SCOPES = 'https://www.googleapis.com/auth/gmail.readonly'
 
-def ListMessagesMatchingQuery(service, user_id, query=''):
+def Unread(service, user_id, query=''):
   try:
     response = service.users().messages().list(userId=user_id,
                                                q=query).execute()
@@ -48,7 +48,7 @@ def main():
     if not messages:
         print("No messages found.")
     else:
-        email_count = len(ListMessagesMatchingQuery(service, "me", "label:unread category:primary"))
-        print(email_count)
+        unread = len(Unread(service, "me", "label:unread category:primary"))
+        print(unread)
 if __name__ == '__main__':
     main()
