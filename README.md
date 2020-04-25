@@ -3,7 +3,7 @@ All python codes were tested on Windows 10 when Arduino Nano was used.
 
 microphone--arduino--USB-PC
 <pre>
-mic.ino
+mic.ino using MAX4466 (High Precision Preamplifier Electret Microphone Amplifier) with 3 pins
 $ python oscillo.py 
 or
 $ python mic.py
