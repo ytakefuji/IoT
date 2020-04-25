@@ -1,7 +1,9 @@
 # IoT
+
 All python codes were tested on Windows 10 using Arduino Nano.
 <img src="https://github.com/ytakefuji/IoT/blob/master/nanopins.jpg" height=200 width=400>
-microphone--arduino--USB-PC
+
+microphone--arduinoNANO--USB-PC
 <pre>
 mic.ino using MAX4466 (High Precision Preamplifier Electret Microphone Amplifier) with 3 pins
 $ python oscillo.py 
