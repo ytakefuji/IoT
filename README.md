@@ -7,8 +7,8 @@ mic.ino using MAX4466 (High Precision Preamplifier Electret Microphone Amplifier
 $ python oscillo.py 
 or
 $ python mic.py
-# ASSIGNMENT:
-modify mic.py using a LED for sensing the intensity of light.
+# ASSIGNMENT: LED as power generation device using light
+modify mic.py or oscillo.py using a LED for sensing the intensity of light.
 </pre>
 --------------------------
 adxl345--arduino-USB-PC
