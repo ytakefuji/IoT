@@ -7,6 +7,8 @@ mic.ino
 $ python oscillo.py 
 or
 $ python mic.py
+# ASSIGNMENT:
+modify mic.py using a LED for sensing the intensity of light.
 </pre>
 --------------------------
 adxl345--arduino-USB-PC
