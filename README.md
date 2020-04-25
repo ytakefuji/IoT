@@ -8,10 +8,15 @@ Arduino Nano (ATMEGA328P) is composed of 30 pins DIP with 32 KB ISP flash memory
 microphone--arduinoNANO--USB-PC
 <pre>
 mic.ino using MAX4466 (High Precision Preamplifier Electret Microphone Amplifier) with 3 pins
+# captured analog data (10-bit) will be transmitted from Arduino Nano to PC through USB.
+
 $ python oscillo.py 
 or
 $ python mic.py
-# ASSIGNMENT: use a single LED as power generation device using light
+
+# ASSIGNMENT: use a single LED instead of microphone.
+# An LED is a device to generate electric power using light.
+# Contrarily, an LED is also a light-emitting diode using electric power.
 modify mic.py or oscillo.py using a single LED for sensing the intensity of light.
 </pre>
 --------------------------
