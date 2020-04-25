@@ -1,6 +1,6 @@
 # IoT
-All python codes were tested on Windows 10 when Arduino Nano was used.
-
+All python codes were tested on Windows 10 using Arduino Nano.
+<a img="nanopins.jpg">
 microphone--arduino--USB-PC
 <pre>
 mic.ino using MAX4466 (High Precision Preamplifier Electret Microphone Amplifier) with 3 pins
