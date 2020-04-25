@@ -23,7 +23,7 @@ modify mic.py or oscillo.py using a single LED for sensing the intensity of ligh
 adxl345--arduino-USB-PC
 <pre>
 ADXL345 is a device of 3-axis accelerometer with high resolution (13-bit) measurement 
-at up to ±16 g
+at up to ±16 g. pitch_roll.ino generates pitch and role respectively.
 
 pitch_roll.ino
 |__ADXL345.cpp
