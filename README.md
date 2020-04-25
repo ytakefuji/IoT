@@ -25,8 +25,8 @@ modify mic.py or oscillo.py using a single LED for sensing the intensity of ligh
 --------------------------
 adxl345--arduino-USB-PC
 <pre>
-ADXL345 is a device of 3-axis accelerometer with high resolution (13-bit) measurement 
-at up to ±16 g. pitch_roll.ino generates pitch and role respectively.
+ADXL345 (I2C) is a 3-axis accelerometer with high resolution (13-bit) measurement 
+at up to ±16 g. pitch_roll.ino using I2C generates pitch and role respectively.
 
 pitch_roll.ino
 |__ADXL345.cpp
@@ -40,8 +40,12 @@ tcs34725--arduino-PC
 tcs34725.ino
 </pre>
 --------------------------
-co2 sensor: MH-Z16
+co2 sensor: MH-Z16 co2 sensor based on NDIR
 <pre>
+Measured data is displayed on OLED128x64.  
+U8glib manages displaying data on OLED.
+
+MH-Z16 is a very accurate 
 OLED128x64_mhz16.ino
 |__NDIR_SoftwareSerial.h
 |__NDIR_SoftwareSerial.cpp
@@ -50,6 +54,9 @@ OLED128x64_mhz16.ino
 --------------------------
 earthquake(adxl345)+weather(bme280:air,temp,humid)
 <pre>
+ADXL345 (3D-shaking) and BME280 (aid pressure, temperature, humidity) data are displayed
+on OLED128x64 using U8glib.
+
 OLED_adxl345_bme280.ino
 |__ADXL345.cpp
 |__ADXL345.h
@@ -57,8 +64,11 @@ OLED_adxl345_bme280.ino
 |__BME280I2C.h
 </pre>
 --------------------------
-PONG
+PONG game
 <pre>
+PONG.ino is a game of ping pong where ADXL345 gives input of pitch and role 
+for controlling a ball.
+
 PONG.ino
 |__Adafruit_GFX.h
 |__Adafruit_SSD1306.h
@@ -68,6 +78,8 @@ PONG.ino
 ---------------------------
 servo+adxl345
 <pre>
+servo_adxl345.ino manipulates a servo based on pitch and role by ADXL345.
+
 servo_adxl345.ino
 |__ADXL345.h
 |__ADXL345.cpp
