@@ -8,7 +8,7 @@ Arduino Nano (ATMEGA328P) is composed of 30 pins DIP with 32 KB ISP flash memory
 microphone--arduinoNANO--USB-PC
 <pre>
 mic.ino using MAX4466 (High Precision Preamplifier Electret Microphone Amplifier) with 3 pins
-# captured analog data (10-bit) will be transmitted from Arduino Nano to PC through USB.
+# captured analog data (10-bit) using microphone will be transmitted from Arduino Nano to PC through USB.
 
 $ python oscillo.py 
 or
