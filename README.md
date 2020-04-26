@@ -52,6 +52,19 @@ pitch_roll.ino
 $ python pitch_roll.py
 </pre>
 --------------------------
+BME280--arduino-USB-PC
+<pre>
+BME280 (I2C) is a weather sensor (air pressure, temperature, humidity). 
+bme280.ino using I2C generates air pressure, temperature, humidity, and HI(heat index) respectively.
+# On PC, use miniterm to display weather information of 4 parameters.
+# This example shows com3 as Arduino port on PC.
+$ miniterm com3
+101108 23  60  70
+101105 23  60  70
+101107 23  60  70
+...
+</pre>
+--------------------------
 light sensor 
 <pre>
 tcs34725--arduino-PC
