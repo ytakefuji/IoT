@@ -3,7 +3,7 @@
 All python codes were tested on Windows 10 using Arduino Nano.
 Arduino Nano (ATMEGA328P) is composed of 30 pins DIP with 32 KB ISP flash memory with read-while-write capabilities, 1 KB EEPROM, 2 KB SRAM, 23 general purpose I/O lines, 32 general purpose working registers, three flexible timer/counters with compare modes, internal and external interrupts, serial programmable USART, a byte-oriented 2-wire serial interface (I2C), SPI serial port, 6-channel 10-bit A/D converter.
 
-You should download open-source Arduino Software (IDE):
+You should download and install open-source Arduino Software (IDE):
 <a href="https://www.arduino.cc/en/main/software"> Arduino Software(IDE)</a>
 
 <img src="https://github.com/ytakefuji/IoT/blob/master/nanopins.jpg" height=200 width=400>
