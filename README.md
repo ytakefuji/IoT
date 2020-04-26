@@ -10,9 +10,10 @@ You should download and install open-source Arduino Software (IDE):
 
 microphone--arduinoNANO--USB-PC
 <pre>
-oscillo.py and mic.ino using MAX4466 (High Precision Preamplifier Electret Microphone Amplifier) with 3 pins
-# captured analog data (10-bit) using microphone will be transmitted from Arduino Nano to PC through USB.
-# oscillo.py is more stable than mic.py.
+oscillo.py and mic.ino using MAX4466 (High Precision Preamplifier Electret Microphone Amplifier)
+with 3 pins
+# captured analog data (10-bit) using microphone will be transmitted from Arduino Nano to PC
+through USB. oscillo.py is more stable than mic.py.
 $ python oscillo.py 
 or
 $ python mic.py
