@@ -15,7 +15,7 @@ with 3 pins.
 
 ### WARNING ####
 In order to use pyrealtime on bash on ubuntu on windows (WSL),
-You must modify the layer.py as follows:
+you must modify the layer.py as follows using ttyS3 port example:
 layer.py is at miniconda3/lib/python3.7/site-packages/pyrealtime/layer.py
 
 Add two lines in layer.py before line 235 and modify line 237:
