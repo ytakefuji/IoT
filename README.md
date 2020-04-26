@@ -44,13 +44,16 @@ modify mic.py or oscillo.py using a single LED for sensing the intensity of ligh
 adxl345--arduino-USB-PC
 <pre>
 ADXL345 (I2C) is a 3-axis accelerometer with high resolution (13-bit) measurement 
-at up to ±16 g. pitch_roll.ino using I2C generates pitch and role respectively.
+at up to ±16 g. 
+pitch_roll.ino using I2C generates pitch and role respectively.
 
 pitch_roll.ino
 |__ADXL345.cpp
 |__ADXL345.h
 $ python pitch_roll.py
 </pre>
+<a href='https://youtu.be/7ekkDMEk4o0'> VIDEO</a>
+
 --------------------------
 BME280--arduino-USB-PC
 <pre>
@@ -94,6 +97,7 @@ OLED_adxl345_bme280.ino
 |__BME280I2C.cpp
 |__BME280I2C.h
 </pre>
+<a href='https://youtu.be/0GyXGndFAKk'> VIDEO</a>
 --------------------------
 PONG game
 <pre>
