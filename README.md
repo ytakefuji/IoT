@@ -117,6 +117,8 @@ servo_adxl345.ino
 |__Servo.h
 </pre>
 ---------------------------
+<a href='https://youtu.be/BsDuZaXPQck'> VIDEO</a>
+
 ---------------------------
 Assignment: gmail unread messages; LED blinks the number of unread messages
 <pre>
