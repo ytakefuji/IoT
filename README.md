@@ -20,12 +20,12 @@ layer.py is at miniconda3/lib/python3.7/site-packages/pyrealtime/layer.py
 
 Add two lines in layer.py before line 235 and modify line 237:
 235:            import serial
-236:            self.ser=serial.Serial('/dev/ttyS3',9600)
+236:            self.ser=serial.Serial('/dev/ttyS3')
 Disable 237 line by #
     def run_thread(self):
         try:
             import serial
-            self.ser=serial.Serial('/dev/ttyS3',9600)
+            self.ser=serial.Serial('/dev/ttyS3')
             #self.initialize()
 ### WARNING ####
 
