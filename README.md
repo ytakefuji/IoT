@@ -11,7 +11,24 @@ You should download and install open-source Arduino Software (IDE):
 microphone--arduinoNANO--USB-PC
 <pre>
 oscillo.py and mic.ino using MAX4466 (High Precision Preamplifier Electret Microphone Amplifier)
-with 3 pins
+with 3 pins.
+
+### WARNING ####
+In order to use pyrealtime on bash on ubuntu on windows (WSL),
+You must modify the layer.py as follows:
+layer.py is at miniconda3/lib/python3.7/site-packages/pyrealtime/layer.py
+
+Add two lines in layer.py before line 235 and modify line 237:
+235:            import serial
+236:            self.ser=serial.Serial('/dev/ttyS3',9600)
+Disable 237 line by #
+    def run_thread(self):
+        try:
+            import serial
+            self.ser=serial.Serial('/dev/ttyS3',9600)
+            #self.initialize()
+### WARNING ####
+
 # captured analog data (10-bit) using microphone will be transmitted from Arduino Nano to PC
 through USB. oscillo.py is more stable than mic.py.
 $ python oscillo.py 
