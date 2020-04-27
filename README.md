@@ -10,10 +10,12 @@ You should download and install open-source Arduino Software (IDE):
 
 arduinoNANO-USB-PC
 <pre>
-blink.py sends the number to arduino Nano through USB. A single LED blinks by the given number times. 
+blink.py sends the number to arduino Nano through USB. A single LED blinks 
+by the given number of times. 
 instead of the given number, "q" terminates the program.
 HINT: use serial library by "import serial". 
 HINT: s=serial.Serial('com3',9600) indicates the port (com3) and baudrate (9600) respectively.
+
 $ python blink.py
 enter: 1
 enter: 3
