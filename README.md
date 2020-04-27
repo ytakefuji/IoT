@@ -10,9 +10,9 @@ You should download and install open-source Arduino Software (IDE):
 
 arduinoNANO-USB-PC
 <pre>
-blink.py receives the typed number from terminal to arduino Nano through USB. 
+blink.py receives the typed number from terminal and sends it to arduino Nano through USB. 
 A single LED blinks by the given number of times. 
-instead of the given number, entered "q" terminates the program.
+typed "q" terminates the program.
 HINT: use serial library by "import serial". 
 HINT: s=serial.Serial('com3',9600) indicates the port (com3) and baudrate (9600) respectively.
 
