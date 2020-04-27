@@ -154,3 +154,5 @@ PATH=/home/takefuji/miniconda3/bin:/home/takefuji/miniconda3/condabin:/usr/local
 # * * * * * command to execute
 </pre>
 ---------------------------
+<a href='https://youtu.be/ExHR-klQG3w'> VIDEO</a>
+
