@@ -8,6 +8,21 @@ You should download and install open-source Arduino Software (IDE):
 
 <img src="https://github.com/ytakefuji/IoT/blob/master/nanopins.jpg" height=200 width=400>
 
+arduinoNANO-USB-PC
+<pre>
+blink.py sends the number to arduino Nano through USB. A single LED blinks by the given number times. 
+instead of the given number, "q" terminates the program.
+HINT: use serial library by "import serial". 
+HINT: s=serial.Serial('com3',9600) indicates the port (com3) and baudrate (9600) respectively.
+$ python blink.py
+enter: 1
+enter: 3
+enter: 4
+enter: q
+</pre>
+<a href='https://youtu.be/pyEo5iOtCAY'> VIDEO</a>
+
+
 microphone--arduinoNANO--USB-PC
 <pre>
 oscillo.py and mic.ino using MAX4466 (High Precision Preamplifier Electret Microphone Amplifier)
