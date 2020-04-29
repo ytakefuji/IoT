@@ -24,6 +24,7 @@ If you use the different version driver, you can feel the OLED display is so slo
 &#60fix_fft.h&#62 means installed default library while "fix_fft.h" means local library 
 in the same folder of fftOLED.ino file.
 </pre>
+<a href='https://www.youtube.com/watch?v=NABdw3JH1IE'> VIDEO</a>
 
 
 arduinoNANO-USB-PC
