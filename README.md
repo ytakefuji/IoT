@@ -8,6 +8,13 @@ You should download and install open-source Arduino Software (IDE):
 
 <img src="https://github.com/ytakefuji/IoT/blob/master/nanopins.jpg" height=200 width=400>
 
+# Library version is very important since different version can cause many problems.
+# The following real-time spectrum analyzer is a good example for educators.
+arduinoNANO-I2C(OLED128x32)-microphone-USB-PC
+<pre>
+
+
+
 arduinoNANO-USB-PC
 <pre>
 blink.py receives the typed number from terminal and sends it to arduino Nano through USB. 
