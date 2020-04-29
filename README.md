@@ -9,10 +9,11 @@ You should download and install open-source Arduino Software (IDE):
 <img src="https://github.com/ytakefuji/IoT/blob/master/nanopins.jpg" height=200 width=400>
 
 # Library version is very important since different version can cause many problems.
-# The following real-time spectrum analyzer is a good example for educators.
+The following real-time spectrum analyzer is a good example for educators:
 arduinoNANO-I2C(OLED128x32)-microphone-USB-PC
 <pre>
-
+Use fftOLED.ino, fix_fft.h, and fix_fft.cpp.
+OLED128x32 has I2C interface where you must use 
 
 
 arduinoNANO-USB-PC
