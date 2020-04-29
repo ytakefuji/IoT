@@ -21,7 +21,7 @@ A set of fix_fft.h and fix_fft.cpp is a FFT library.
 You must use Adafruit_SSD1306.h (driver) with verson 1.1.0 or 1.1.2.
 If you use the different version driver, you can feel the OLED display is so slow.
 
-\<fix_fft.h\> means installed default library while "fix_fft.h" means local library 
+&#60fix_fft.h&#62 means installed default library while "fix_fft.h" means local library 
 in the same folder of fftOLED.ino file.
 </pre>
 
