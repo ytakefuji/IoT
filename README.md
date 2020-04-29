@@ -9,11 +9,21 @@ You should download and install open-source Arduino Software (IDE):
 <img src="https://github.com/ytakefuji/IoT/blob/master/nanopins.jpg" height=200 width=400>
 
 # Library version is very important since different version can cause many problems.
-The following real-time spectrum analyzer is a good example for educators:
+The following real-time spectrum analyzer is a good example for educators to know 
+local libraries and default libraries:
 arduinoNANO-I2C(OLED128x32)-microphone-USB-PC
 <pre>
 Use fftOLED.ino, fix_fft.h, and fix_fft.cpp.
-OLED128x32 has I2C interface where you must use 
+OLED128x32 has I2C interface where there are two libraries: 
+Adafruit_GFX.h and Adafruit_SSD1306.h.
+Adafruit_GFX.h is OLED graphic library while Adafruit_SSD1306.h is a driver software.
+A set of fix_fft.h and fix_fft.cpp is a FFT library.
+You must use Adafruit_SSD1306.h (driver) with verson 1.1.0 or 1.1.2.
+If you use the different version driver, you can feel the OLED display is so slow.
+
+<fix_fft.h> means installed default library while "fix_fft.h" means local library 
+in the same folder of fftOLED.ino file.
+</pre>
 
 
 arduinoNANO-USB-PC
