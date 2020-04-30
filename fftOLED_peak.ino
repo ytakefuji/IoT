@@ -43,7 +43,7 @@ void loop()
   
   display.clearDisplay();                             //clear display
   for (i = 1; i < 64; i++) {                          // In the current design, 60Hz and noise
-   data[i] = sqrt(data[i] * data[i] + im[i] * im[i]);
+   if(i!=41) data[i] = sqrt(data[i] * data[i] + im[i] * im[i]);
    if(data[i]>high) {high=data[i];index=i;};
    display.drawFastVLine(2*i, 2,lastpass[i],WHITE);
    lastpass[i]=30-data[i];
@@ -56,7 +56,7 @@ void loop()
 
 display.setTextColor(WHITE); 
 display.setCursor(5,17);  
-if(index>3)display.print(index*71-7);    
+if(index>4&& index!=41)display.print(index*71-7);    
 display.print(" Hz");                                             
 display.display();                                  //show the buffer
 };
