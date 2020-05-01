@@ -1,7 +1,8 @@
 /*
  * Arduino Real-time Spectrum Analizer
  * 
- * use Adafruit_SSD1306.h verson 1.0.0 ~ 1.1.2 driver
+ * install Adafruit_GFX library
+ * install Adafruit_SSD1306 library: verson 1.0.0 ~ 1.1.2 driver
  * install fix_fit library
  */
 
