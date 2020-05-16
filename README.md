@@ -26,6 +26,7 @@ in the same folder of fftOLED.ino file.
 </pre>
 <a href='https://www.youtube.com/watch?v=NABdw3JH1IE'> VIDEO</a>
 
+<a href='https://www.youtube.com/watch?v=wWtuWTPgbos'> slow response VIDEO</a>
 
 arduinoNANO-USB-PC
 <pre>
