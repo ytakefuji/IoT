@@ -31,7 +31,7 @@ in the same folder of fftOLED.ino file.
 arduinoNANO-USB-PC
 <pre>
 blinkN.py receives the typed number from terminal and sends it to arduino Nano through USB. 
-A single LED with blink.ino blinks by the given number of times. 
+A single LED with blinkN.ino blinks by the given number of times. 
 typed "q" terminates the program.
 HINT: use serial library by "import serial". 
 HINT: s=serial.Serial('com3',9600) indicates the port (com3) and baudrate (9600) respectively.
