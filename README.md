@@ -37,6 +37,7 @@ HINT: use serial library by "import serial".
 HINT: s=serial.Serial('com3',9600) indicates the port (com3) and baudrate (9600) respectively.
 
 $ python blink0.py
+ready
 enter: 1
 enter: 3
 enter: 4
