@@ -78,7 +78,8 @@ $ python mic.py
 # Contrarily, an LED is also a light-emitting diode using electric power.
 modify mic.py or oscillo.py using a single LED for sensing the intensity of light.
 </pre>
-<a href='https://youtu.be/Lj34cn2UcCo'> VIDEO</a>
+<a href='https://www.youtube.com/watch?v=yCwpIfL0nUM'>VIDEO_mic</a>
+<a href='https://youtu.be/Lj34cn2UcCo'> VIDEO_led</a>
 --------------------------
 adxl345--arduino-USB-PC
 <pre>
