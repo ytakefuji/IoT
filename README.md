@@ -45,7 +45,9 @@ enter: q
 </pre>
 <a href='https://youtu.be/pyEo5iOtCAY'> VIDEO</a>
 # exercises for students
-Make blinkN2.ino for accommodating two digits or more than that.
+Make blinkN2.ino for accommodating two digits or more. blinkN.ino can accept a single digit.
+
+Make blinkN2.py for sending two digits or more. 
 <pre>
 Hint: arduino
 Use Serial.readString()
