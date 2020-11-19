@@ -44,7 +44,15 @@ enter: 4
 enter: q
 </pre>
 <a href='https://youtu.be/pyEo5iOtCAY'> VIDEO</a>
-
+# exercises for students
+Make blinkN2.ino for accommodating two digits or more than that.
+<pre>
+Hint: arduino
+Use Serial.readString()
+Use str.toInt() for converting string to integer where str is the received string.
+Hint: Python
+Use str.encode('utf8') when serial str.write().
+</pre>
 
 microphone--arduinoNANO--USB-PC
 <pre>
