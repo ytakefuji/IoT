@@ -239,6 +239,16 @@ b.digital[2].write(0)
 To read analog port[0]
 b.analog[0].read()
 
+</pre>
 
+# web server+ captured data + browser
+<pre>
+Expand web_flask.tar.
+In order to use this program, modify server.py for serial port and baud rate in capturing a single sensor.
+The current settings are com3 port and 115200 baudrate.
+The captured data is displayed on the browser by accessing to http://127.0.0.1:5000/
+To run:
+$ python server.py
+Then, access to server: http://127.0.0.1:5000/
 </pre>
 
