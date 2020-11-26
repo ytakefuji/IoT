@@ -28,7 +28,16 @@ in the same folder of fftOLED.ino file.
 
 <a href='https://www.youtube.com/watch?v=wWtuWTPgbos'> slow response VIDEO</a>
 
-arduinoNANO-USB-PC
+# PC to arduino communication
+<pre>
+Use onoff.ino for led-on or led-off.
+
+Use on.py and off.py for led-on or led-off.
+$ python on.py
+$ python off.py
+</pre>
+
+# arduinoNANO-USB-PC
 <pre>
 blinkN.py receives the typed number from terminal and sends it to arduino Nano through USB. 
 A single LED with blinkN.ino blinks by the given number of times. 
@@ -48,15 +57,6 @@ enter: q
 Make blinkN2.ino for accommodating two digits or more. blinkN.ino can accept a single digit.
 
 Make blinkN2.py for sending two digits or more. 
-
-# PC to arduino communication
-<pre>
-Use onoff.ino for led-on or led-off.
-
-Use on.py and off.py for led-on or led-off.
-$ python on.py
-$ python off.py
-</pre>
 
 <pre>
 Hint: arduino
