@@ -245,7 +245,9 @@ b.analog[0].read()
 <pre>
 Expand web_flask.tar.
 In order to use this program, modify server.py for serial port and baud rate in capturing a single sensor.
-The current settings are com3 port and 115200 baudrate.
+The important files are server.py (server and capture), templates/index.html, 
+static/js/script.js and static/css/style.css.
+The current settings are com3 port and 115200 baud rate in server.py.
 The captured data is displayed on the browser by accessing to http://127.0.0.1:5000/
 To run:
 $ python server.py
