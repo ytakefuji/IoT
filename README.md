@@ -199,6 +199,30 @@ $ sudo service cron start
 $ crontab -e
 # set SHELL, PATH, commands(minute, hour, day, month, day of the week, command)
 SHELL=/bin/bash
+
+# firmata: you can control arduino from Python.
+
+<pre>
+How to install firmata on PC and Arduino
+On PC using pip command in Python
+$ pip install pyfirmata
+On Arduino IDE menu for firmata installation on your arduino
+File -> Examples -> StandardFirmata
+
+On terminal of PC
+$ cat ledonoff.py
+'''this is an example of led-on and led-off of digital port #2'''
+import pyfirmata
+from time import sleep
+b=pyfirmata.Arduino('COM3')
+i=pyfirmata.util.Iterator(b)
+b.digital[2].write(1)
+sleep(1)
+b.digital[2].write(0)
+
+</pre>
+
+
 PATH=/home/takefuji/miniconda3/bin:/home/takefuji/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 # every minute gcheck.py will be executed.
 * * * * * python gcheck.py >/dev/null
