@@ -48,6 +48,16 @@ enter: q
 Make blinkN2.ino for accommodating two digits or more. blinkN.ino can accept a single digit.
 
 Make blinkN2.py for sending two digits or more. 
+
+# PC to arduino communication
+<pre>
+Use onoff.ino for led-on or led-off.
+
+Use on.py and off.py for led-on or led-off.
+$ python on.py
+$ python off.py
+</pre>
+
 <pre>
 Hint: arduino
 Use Serial.readString()
