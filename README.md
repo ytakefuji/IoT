@@ -199,6 +199,22 @@ $ sudo service cron start
 $ crontab -e
 # set SHELL, PATH, commands(minute, hour, day, month, day of the week, command)
 SHELL=/bin/bash
+PATH=/home/takefuji/miniconda3/bin:/home/takefuji/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+# every minute gcheck.py will be executed.
+* * * * * python gcheck.py >/dev/null
+# ┌───────────── minute (0 - 59)
+# │ ┌───────────── hour (0 - 23)
+# │ │ ┌───────────── day of the month (1 - 31)
+# │ │ │ ┌───────────── month (1 - 12)
+# │ │ │ │ ┌───────────── day of the week (0 - 6) (Sunday to Saturday;
+# │ │ │ │ │                                   7 is also Sunday on some systems)
+# │ │ │ │ │
+# │ │ │ │ │
+# * * * * * command to execute
+</pre>
+---------------------------
+<a href='https://youtu.be/ExHR-klQG3w'> VIDEO</a>
+
 
 # firmata: you can control arduino from Python.
 
@@ -221,21 +237,4 @@ sleep(1)
 b.digital[2].write(0)
 
 </pre>
-
-
-PATH=/home/takefuji/miniconda3/bin:/home/takefuji/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-# every minute gcheck.py will be executed.
-* * * * * python gcheck.py >/dev/null
-# ┌───────────── minute (0 - 59)
-# │ ┌───────────── hour (0 - 23)
-# │ │ ┌───────────── day of the month (1 - 31)
-# │ │ │ ┌───────────── month (1 - 12)
-# │ │ │ │ ┌───────────── day of the week (0 - 6) (Sunday to Saturday;
-# │ │ │ │ │                                   7 is also Sunday on some systems)
-# │ │ │ │ │
-# │ │ │ │ │
-# * * * * * command to execute
-</pre>
----------------------------
-<a href='https://youtu.be/ExHR-klQG3w'> VIDEO</a>
 
