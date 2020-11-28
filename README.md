@@ -256,6 +256,10 @@ Then, access to server using any browser: http://127.0.0.1:5000/
 
 # GUI controls LED-ON and LED-OFF using Tkinter
 <pre>
+tkinter is installed with your Python.
+To see the version of tkinter:
+$ python -m tkinter
+The popup shows it.
 guiled.py is an example for controlling led-on and led-off from GUI using tkinter.
 </pre>
 
