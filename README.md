@@ -264,5 +264,6 @@ guiled.py is an example for controlling led-on and led-off from GUI.
 remiwebled.py is an example for controlling led-on and led-off from web browser.
 To install remi:
 $ pip install remi
-remi can create a web server without html file, can display captured data from IoT devices on web browser. and can send data or commands to IoT devices.
+remi can create a web server without html file, can display captured data from IoT devices on web browser,
+and can send data or commands to IoT devices.
 </pre>
