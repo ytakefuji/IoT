@@ -262,4 +262,6 @@ guiled.py is an example for controlling led-on and led-off.
 # Web browser controls LED-ON and LED-OFF using remi
 <pre>
 remiwebled.py is an example for controlling led-on and led-off.
+To install remi:
+$ pip install remi
 </pre>
