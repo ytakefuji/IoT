@@ -256,7 +256,7 @@ Then, access to server using any browser: http://127.0.0.1:5000/
 
 # GUI controls LED-ON and LED-OFF using Tkinter
 <pre>
-guiled.py is an example for controlling led-on and led-off from GUI.
+guiled.py is an example for controlling led-on and led-off from GUI using tkinter.
 </pre>
 
 # Web browser controls LED-ON and LED-OFF using remi
