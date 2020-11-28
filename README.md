@@ -251,17 +251,17 @@ The current settings are com3 port and 115200 baud rate in server.py.
 The captured data is displayed on the browser by accessing to http://127.0.0.1:5000/
 To run:
 $ python server.py
-Then, access to server: http://127.0.0.1:5000/
+Then, access to server using any browser: http://127.0.0.1:5000/
 </pre>
 
 # GUI controls LED-ON and LED-OFF using Tkinter
 <pre>
-guiled.py is an example for controlling led-on and led-off.
+guiled.py is an example for controlling led-on and led-off from GUI.
 </pre>
 
 # Web browser controls LED-ON and LED-OFF using remi
 <pre>
-remiwebled.py is an example for controlling led-on and led-off.
+remiwebled.py is an example for controlling led-on and led-off from web browser.
 To install remi:
 $ pip install remi
 remi can create a web server without html file, can display captured data from IoT devices on web browser. and can send data or commands to IoT devices.
