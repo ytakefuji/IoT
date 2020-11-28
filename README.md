@@ -272,4 +272,8 @@ To install remi:
 $ pip install remi
 remi can create a web server without html file, can display captured data from IoT devices on web browser,
 and can send data or commands to IoT devices.
+To run:
+$ python remiwebled.py
+The current settings in remiwebled.py are as follows: 'COM3',9600, address='127.0.0.1', port=8080 respectively.
+Two buttons are for led-on and led-off respectively.
 </pre>
