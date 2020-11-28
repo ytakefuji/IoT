@@ -253,13 +253,13 @@ To run:
 $ python server.py
 Then, access to server: http://127.0.0.1:5000/
 </pre>
-<pre>
-# GUI controls LED-ON and LED-OFF using Tkinter
 
+# GUI controls LED-ON and LED-OFF using Tkinter
+<pre>
 guiled.py is an example for controlling led-on and led-off.
 </pre>
-<pre>
-# Web browser controls LED-ON and LED-OFF using remi
 
-remiwebled.py
+# Web browser controls LED-ON and LED-OFF using remi
+<pre>
+remiwebled.py is an example for controlling led-on and led-off.
 </pre>
