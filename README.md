@@ -245,22 +245,24 @@ b.analog[0].read()
 <pre>
 Expand web_flask.tar.
 In order to use this program, modify server.py for serial port and baud rate in capturing a single sensor.
-The important files are server.py (server and capture), templates/index.html, 
+The important files are server.py (plaing as server and capturing data from an IoT device), templates/index.html, 
 static/js/script.js and static/css/style.css.
-The current settings are com3 port and 115200 baud rate in server.py.
+The current settings of an IoT device are as follows: com3 port and 115200 baud rate in server.py.
 The captured data is displayed on the browser by accessing to http://127.0.0.1:5000/
 To run:
 $ python server.py
 Then, access to server using any browser: http://127.0.0.1:5000/
 </pre>
 
-# GUI controls LED-ON and LED-OFF using Tkinter
+# GUI controls LED-ON and LED-OFF using tkinter
 <pre>
 tkinter is installed with your Python.
 To see the version of tkinter:
 $ python -m tkinter
-The popup shows it.
+A new window will be opened which shows the version.
+
 guiled.py is an example for controlling led-on and led-off from GUI using tkinter.
+Three buttons when pressing one of them are for turning led-on, led-off, and quit respectively.
 </pre>
 
 # Web browser controls LED-ON and LED-OFF using remi
