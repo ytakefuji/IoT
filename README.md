@@ -252,6 +252,8 @@ The captured data is displayed on the browser by accessing to http://127.0.0.1:5
 To run:
 $ python server.py
 Then, access to server using any browser: http://127.0.0.1:5000/
+
+mic.ino on Arduino is used in this demo.
 </pre>
 
 # GUI controls LED-ON and LED-OFF using tkinter
@@ -264,7 +266,7 @@ A new window will be opened which shows the version.
 guiled.py is an example for controlling led-on and led-off from GUI using tkinter.
 $ python guiled.py
 Three buttons are used for turning led-on, led-off, and quit respectively.
-ledonoff.ino is used in this demo.
+ledonoff.ino on Arduino is used in this demo.
 </pre>
 <img src='tkinter.png' height=270 width=400>
 
@@ -279,6 +281,6 @@ To run:
 $ python remiwebled.py
 The current settings in remiwebled.py are as follows: 'COM3',9600, address='127.0.0.1', port=8080 respectively.
 Two buttons are for led-on and led-off respectively.
-ledonoff.ino is used in this demo.
+ledonoff.ino on Arudino is used in this demo.
 </pre>
 <img src="remi.png" height=400 width=600>
