@@ -262,7 +262,8 @@ $ python -m tkinter
 A new window will be opened which shows the version.
 
 guiled.py is an example for controlling led-on and led-off from GUI using tkinter.
-Three buttons when pressing one of them are for turning led-on, led-off, and quit respectively.
+$ python guiled.py
+Three buttons are used for turning led-on, led-off, and quit respectively.
 ledonoff.ino is used in this demo.
 </pre>
 <img src='tkinter.png' height=270 width=400>
