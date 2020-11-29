@@ -263,6 +263,7 @@ A new window will be opened which shows the version.
 
 guiled.py is an example for controlling led-on and led-off from GUI using tkinter.
 Three buttons when pressing one of them are for turning led-on, led-off, and quit respectively.
+ledonoff.ino is used in this demo.
 </pre>
 <img src='tkinter.png' height=270 width=400>
 
@@ -277,5 +278,6 @@ To run:
 $ python remiwebled.py
 The current settings in remiwebled.py are as follows: 'COM3',9600, address='127.0.0.1', port=8080 respectively.
 Two buttons are for led-on and led-off respectively.
+ledonoff.ino is used in this demo.
 </pre>
 <img src="remi.png" height=400 width=600>
