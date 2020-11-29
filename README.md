@@ -264,7 +264,7 @@ A new window will be opened which shows the version.
 guiled.py is an example for controlling led-on and led-off from GUI using tkinter.
 Three buttons when pressing one of them are for turning led-on, led-off, and quit respectively.
 </pre>
-<img src='tkinter.png' height=400 width=400>
+<img src='tkinter.png' height=400 width=270>
 
 # Web browser controls LED-ON and LED-OFF using remi
 <pre>
