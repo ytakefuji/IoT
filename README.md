@@ -277,3 +277,4 @@ $ python remiwebled.py
 The current settings in remiwebled.py are as follows: 'COM3',9600, address='127.0.0.1', port=8080 respectively.
 Two buttons are for led-on and led-off respectively.
 </pre>
+<img src="remi.png" height=400 width=600>
