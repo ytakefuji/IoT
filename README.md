@@ -265,6 +265,7 @@ A new window will be opened which shows the version.
 
 guiled.py is an example for controlling led-on and led-off from GUI using tkinter.
 $ python guiled.py
+A new window will be opend with three buttons.
 Three buttons are used for turning led-on, led-off, and quit respectively.
 ledonoff.ino on Arduino is used in this demo.
 </pre>
@@ -279,8 +280,9 @@ remi can create a web server without html file, can display captured data from I
 and can send data or commands to IoT devices.
 To run:
 $ python remiwebled.py
-The current settings in remiwebled.py are as follows: 'COM3',9600, address='127.0.0.1', port=8080 respectively.
+A new window will be opened with two buttons.
 Two buttons are for led-on and led-off respectively.
+The current settings in remiwebled.py are as follows: 'COM3',9600, address='127.0.0.1', port=8080 respectively.
 ledonoff.ino on Arudino is used in this demo.
 </pre>
 <img src="remi.png" height=400 width=600>
