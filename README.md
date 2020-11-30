@@ -226,17 +226,22 @@ On Arduino IDE menu for firmata installation on your arduino
 File -> Examples -> StandardFirmata
 
 On terminal of PC
-$ cat ledonoff.py
-'''this is an example of led-on and led-off of digital port #2'''
+$ python firmataled.py
+Led will blink every second.
+
+$ cat firmataled.py
 import pyfirmata
 from time import sleep
 b=pyfirmata.Arduino('COM3')
 i=pyfirmata.util.Iterator(b)
-b.digital[2].write(1)
-sleep(1)
-b.digital[2].write(0)
+while 1:
+ b.digital[2].write(1)
+ sleep(1)
+ b.digital[2].write(0)
+ sleep(1)
 
-To read analog port[0]
+
+-------To read analog port[0]------
 b.analog[0].read()
 
 </pre>
